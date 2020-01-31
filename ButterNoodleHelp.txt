@@ -1,0 +1,270 @@
+    1  fcitx-configtool 
+    2  killall fcitx
+    3  fcitx
+    4  fcitx-configtool 
+    5  killall fcitx
+    6  fcitx4-config 
+    7  fcitx-diagnose 
+    8  fcitx-diagnose >diag.txt
+    9  less diag.txt 
+   10  ls
+   11  rm diag.txt 
+   12  fcitx-configtool 
+   13  fcitx|less
+   14  weechat
+   15  sudo pacman -S weechat
+   16  weechat
+   17  sudo pacman -Rs weechat
+   18  sudo pacman -S weechat
+   19  weechat
+   20  python3
+   21  idle
+   22  mozc
+   23  pacman -S fcitx-mozc
+   24  sudo pacman -S fcitx-mozc
+   25  mozc
+   26  fcitx
+   27  pkill fcitx
+   28  sudo pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-mozc fcitx-qt5
+   29  vi .xinitrc 
+   30  reboot now
+   31  sudo reboot
+   32  fcitx-configtool 
+   33  sudo reboot
+   34  vi .bashrc 
+   35  less .xinitrc 
+   36  vi .xinitrc 
+   37  sudo reboot
+   38  vi .xprofile
+   39  vi .bashrc 
+   40  sudo pacman -Syy
+   41  sudo pacman -S fcitx-mozc fcitx-gtk2 fcitx-gtk3 fcitx-qt4 
+   42  less /proc/cpuinfo
+   43  weechat
+   44  weechat
+   45  chromium 
+   46  xrandr --listmonitors
+   47  xrandr --listmonitors
+   48  xrandr --listmonitors
+   49  xrandr --auto
+   50  xrandr --on
+   51  xrandr --help
+   52  xrandr --listmonitors
+   53  xrandr --listmonitors
+   54  xrandr --listmonitors
+   55  xrandr --listmonitors
+   56  xrand --output HDMI1 --on --left-of LVDS1
+   57  xrandr --output HDMI1 --on --left-of LVDS1
+   58  xrandr --output HDMI1 --auto --left-of LVDS1
+   59  xrandr --output HDMI1 --on
+   60  xrandr --output HDMI1 --auto
+   61  xrandr --listmonitors
+   62  xrandr 
+   63  xrandr 
+   64  xrandr --output HDMI1 --on --left-of LVDS1
+   65  xrandr --output HDMI1 --auto --left-of LVDS1
+   66  xrandr --listmonitors
+   67  xrandr --listmonitors
+   68  xrandr --listmonitors
+   69  xkill
+   70  sudo reboot
+   71  weechat
+   72  xrandr --listmonitors
+   73  xrandr --listmonitors
+   74  xrandr --listmonitors
+   75  xrandr --listmonitors
+   76  weechat
+   77  cd /etc/
+   78  cd systemd/
+   79  ls
+   80  sudo vi logind.conf 
+   81  sudo service system-logind restart
+   82  sudo service system-logind restart
+   83  pacman -S service
+   84  sudo pacman -S service
+   85  sudo reboot
+   86  weechat
+   87  pacman -S idle3
+   88  sudo pacman -S idle3
+   89  sudo pacman -S idle
+   90  sudo pacman -S tk
+   91  idle
+   92  cleart
+   93  clear
+   94  ls
+   95  cd ドキュメント/
+   96  ls
+   97  rm turtle.py 
+   98  python3 t.py 
+   99  python3 t.py 
+  100  idle t.py 
+  101  clear
+  102  less t.py 
+  103  less t.py 
+  104  xkill
+  105  sudo reboot
+  106  /usr/bin/python -m pip install -U pylint --user
+  107  /usr/bin/python /home/amigojapan/ドキュメント/t.py
+  108  weechat
+  109  cd
+  110  mkdir Manjaro_日本語入力
+  111  cd Manjaro_日本語入力/
+  112  cp /usr/share/pacman/PKGBUILD .
+  113  cp /usr/share/pacman/PKGBUILD.proto .
+  114  ls
+  115  vi PKGBUILD.proto 
+  116  vi test.txt
+  117  vi PKGBUILD.proto 
+  118  cp PKGBUILD.proto  PKGBUILD
+  119  makepkg
+  120  vi PKGBUILD
+  121  vi PKGBUILD
+  122  makepkg
+  123  vi PKGBUILD
+  124  makepkg
+  125  vi PKGBUILD
+  126  makepkg
+  127  vi PKGBUILD
+  128  makepkg
+  129  vi PKGBUILD
+  130  makepkg
+  131  vi PKGBUILD
+  132  makepkg
+  133  vi PKGBUILD
+  134  makepkg
+  135  vi PKGBUILD
+  136  makepkg
+  137  vi PKGBUILD
+  138  makepkg
+  139  vi PKGBUILD
+  140  makepkg
+  141  vi PKGBUILD
+  142  makepkg
+  143  vi PKGBUILD
+  144  makepkg
+  145  vi PKGBUILD
+  146  makepkg
+  147  makepkg -f
+  148  vi PKGBUILD
+  149  makepkg -f|less
+  150  mousepad PKGBUILD
+  151  vi PKGBUILD
+  152  makepkg -f|less
+  153  vi PKGBUILD
+  154  makepkg -f|less
+  155  mkdir tardir
+  156  mv Manjaro_Japanese_Input.install  tardir/
+  157   tar -czvf file. tar. gz tardir/
+  158   tar -czvf file. tar. gz tardir/
+  159   tar -czvf file.tar.gz tardir/
+  160  makepkg -f|less
+  161  vi PKGBUILD
+  162  makepkg -f|less
+  163  ls
+  164  mv file.tar.gz Manjaro_Japanese_Input-1.tar.gz
+  165  makepkg -f|less
+  166  vi PKGBUILD
+  167  makepkg -f|less
+  168  vi PKGBUILD
+  169  makepkg -f|less
+  170  vi Manjaro_Japanese_Input-1.patch
+  171  makepkg -f|less
+  172  makepkg -g -f -p PKGBUILD
+  173  makepkg -f|less
+  174  makepkg -g -f -p PKGBUILD
+  175  makepkg -f -p PKGBUILD
+  176  makepkg -g -f -p PKGBUILD
+  177  ls
+  178  ls tardir/
+  179  cd tardir/
+  180  mod +x Manjaro_Japanese_Input.install 
+  181  chmod +x Manjaro_Japanese_Input.install 
+  182  ls
+  183  cd..
+  184   tar -czvf file.tar.gz tardir/
+  185  cd ..
+  186   tar -czvf file.tar.gz tardir/
+  187   tar -czvf file.tar.gz tardir/Manjaro_Japanese_Input.install 
+  188  cd tardir/
+  189  ls
+  190  rm file.tar.gz 
+  191   tar -czvf file.tar.gz Manjaro_Japanese_Input.install 
+  192  ls
+  193  cd ..
+  194  mv tardir/file.tar.gz Manjaro_Japanese_Input-1.tar.gz 
+  195  makepkg -g -f -p PKGBUILD
+  196  vi PKGBUILD
+  197  makepkg -f PKGBUILD
+  198  makepkg -f PKGBUILD|less
+  199  ls
+  200  less tardir/Manjaro_Japanese_Input.install 
+  201  makepkg -f PKGBUILD|less
+  202  makepkg -f PKGBUILD > output.txt
+  203  makepkg -f PKGBUILD >2> output.txt
+  204  makepkg -f PKGBUILD 1&2> output.txt
+  205  ls
+  206  less output.txt 
+  207  rm output.txt 
+  208  makepkg -f PKGBUILD
+  209  ls
+  210  pacman -U Manjaro_Japanese_Input-1-1-any.pkg.tar.xz 
+  211  sudo pacman -U Manjaro_Japanese_Input-1-1-any.pkg.tar.xz 
+  212  less /var/log/pacman.log 
+  213  ls /temp
+  214  ls /tmp
+  215  touch /tmp/t
+  216  ls
+  217  ls /tmp/
+  218  rm /tmp/t
+  219  ls
+  220  cd tardir/
+  221  ls
+  222  vi Manjaro_Japanese_Input.install 
+  223  ls
+  224  cd ..
+  225   tar -czvf file.tar.gz Manjaro_Japanese_Input.install 
+  226  cd tardir/
+  227   tar -czvf file.tar.gz Manjaro_Japanese_Input.install 
+  228  cd ..
+  229* 
+  230  makepkg -g -f -p PKGBUILD
+  231  vi PKGBUILD
+  232  makepkg
+  233  makepkg -f
+  234* 
+  235  makepkg -g -f -p PKGBUILD
+  236  sudo pacman -U Manjaro_Japanese_Input-1-1-any.pkg.tar.xz 
+  237  ls
+  238  mv tardir/Manjaro_Japanese_Input.install .
+  239  tm tardir/
+  240  rm tardir/
+  241  rm -r tardir/
+  242  ls
+  243  rm file.tar.gz 
+  244  rm file. 
+  245  ls
+  246   tar -czvf Manjaro_Japanese_Input.tar.gz
+  247   tar -czvf . Manjaro_Japanese_Input.tar.gz
+  248   tar -czvf ./* Manjaro_Japanese_Input.tar.gz
+  249  mkdir PKGBUILD
+  250  mkdir Manjaro_Japanese_Input
+  251  ls
+  252  mv PKGBUILD Manjaro_Japanese_Input
+  253  mv Manjaro_Japanese_Input.install Manjaro_Japanese_Input
+  254  makepkg -g -f -p PKGBUILD
+  255  makepkg -g -f -p Manjaro_Japanese_Input/PKGBUILD 
+  256  mv Manjaro_Japanese_Input/PKGBUILD .
+  257  ls
+  258  makepkg -g -f -p PKGBUILD
+  259   tar -czvf Manjaro_Japanese_Input/
+  260  ls
+  261   tar -czvf Manjaro_Japanese_Input-1.tar.gz Manjaro_Japanese_Input
+  262  makepkg -g -f -p PKGBUILD
+  263  vi PKGBUILD
+  264  makepkg
+  265  makepkg -f
+  266  sudo pacman -U Manjaro_Japanese_Input-1-1-any.pkg.tar.xz 
+  267  ls /tmp/h*
+  268  ls /tmp/H*
+  269  history 
+  270  history > ButterNoodleHelp.txt
